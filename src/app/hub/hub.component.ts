@@ -10,7 +10,7 @@ import { UserService } from "../user-service/user.service";
   templateUrl: './hub.component.html',
   styleUrls: ['./hub.component.css']
 })
-export class HubComponent implements OnInit {
+export class HubComponent implements OnInit }
  
   user: User;
 
