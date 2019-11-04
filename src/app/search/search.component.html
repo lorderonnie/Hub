@@ -1,0 +1,32 @@
+<h2>Search github name..</h2>
+<form  #searchform="ngForm" >
+    <input  id="ron" type="text" name="SearchUser" [(ngModel)]="SearchUser" required class="form-control" style="font-size:15px;color: black; font-family: 'Yeon Sung', cursive;">
+    <button id="late" type="submit" class="btn btn-dark" (click)="search()"(click)="repository()" ><a>Search</a></button>
+</form>
+<div class="real">
+     <h1>Your information</h1>
+        <h3>Name:<i>{{user.name}}</i></h3>
+        <h3>Location:<i>{{user.location}}</i></h3>
+        <h3>Followers:<i>{{user.followers}}</i></h3>
+        <h3>Following:<i>{{user.following}}</i></h3>
+        <h3>Public_repos:<i>{{user.public_repos}}</i></h3><br><br>
+       
+       <div  *ngIf="repositories">
+            <div *ngFor="let repository of repositories">
+                <div class="card"> 
+                        <h1>Repo information</h1><br>
+                    <div class="card-columns">
+              
+                <h3 id="forever">Name:<i>{{repository.name}}</i></h3>
+                <h3 id="forever">Full_name:<i>{{repository.full_name}}</i></h3>
+                <h3 id="forever">Created_at:<i>{{repository.created_at}}</i></h3>
+                <h3 id="forever">Pushed_at:<i>{{repository.pushed_at}}</i></h3>
+                <h3 id="forever">Language:<i>{{repository.language}}</i></h3>
+                <h3 id="forever">Size:<i>{{repository.size}}</i></h3>
+                <h3 id="forever">Html_url:<i>{{repository.html_url}}</i></h3><br>
+                </div>
+            </div>
+        </div>   
+       </div>
+</div>
+        

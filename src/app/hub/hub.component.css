@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Yeon Sung', cursive;
+    color: silver;
+}
+.right{
+    margin-top: 90px;
+    text-align: center;
+    background-color: transparent;
+    color: silver;
+}
+p{
+    color: silver;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Yeon Sung', cursive;
+}
+h3{
+    font-size: 40px;
+    color: silver;
+    font-family: 'Niconne', cursive;
+}
+i{
+    color: blue;
+    font-family: 'Niconne', cursive;
+}

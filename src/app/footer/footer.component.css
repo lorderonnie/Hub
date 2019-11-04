@@ -1,0 +1,10 @@
+p{
+    color: gray;  
+ 
+}
+.card{
+    position: absolute;
+    top: 100%;
+    left: 38%;
+    background-color: transparent;
+}

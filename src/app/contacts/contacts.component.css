@@ -1,0 +1,22 @@
+h2{
+    font-size: 55px;
+    font-family: 'Yeon Sung', cursive; 
+    text-align: center;
+    color: white;
+}
+p{
+    font-family: 'Niconne', cursive;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+a{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 46%;
+}
+b{
+    font-size: 45px;
+    font-family: 'Niconne', cursive;
+}

@@ -1,0 +1,45 @@
+b{
+    font-size: 15px;
+    font-family: 'Niconne', cursive;
+}
+h2{
+    text-align: center;
+    color: silver;
+    font-family: 'Yeon Sung', cursive; 
+    font-size: 70px;
+}
+#ron{
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    width: 400px;
+}
+#late{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+
+}
+.real{
+    margin-top: 220px;
+    background-color: transparent;
+    color: silver;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;  
+}
+h3{
+    font-size: 40px;
+}
+i{
+    color: blue;
+    font-size: 35px;  
+}
+.card{
+    background-color: transparent;
+}
+h1{
+    font-size: 60px;
+}
+#forever{
+        color: purple;
+}
