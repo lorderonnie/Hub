@@ -10,7 +10,7 @@ import { UserService } from "../user-service/user.service";
   templateUrl: './hub.component.html',
   styleUrls: ['./hub.component.css']
 })
-export class HubComponent implements OnInit }
+export class HubComponent implements OnInit {
  
   user: User;
 
@@ -23,7 +23,7 @@ export class HubComponent implements OnInit }
       followers:number;
       following:number;
       public_repos:number;
-    };  
+    }  
     this.http.get<ApiResponse>("https://api.github.com/users/lorderonnie?access_token=07baf7d4fd6660b35246bb26d0be54194bc4e92c").subscribe((data: { name: string; location: string; followers:number; following:number; public_repos:number; })=>{
       this.user = new User(data.name, data.location,data.followers,data.following,data.public_repos)
     },err=>{
