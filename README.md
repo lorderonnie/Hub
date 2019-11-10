@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Setup/Installation Requirements
 * Access a laptop or Tablet
 * Gain access to bundles or WI-FI
-* Go to github and access this link:
+* Go to github and access this link:https://lorderonnie.github.io/Hub/
 * Check the code via atom or visual studio code
 * Use atom . or code . to open the code from your terminal
 
